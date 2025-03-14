@@ -1,0 +1,25 @@
+{
+    "name": "YouTube 5-Minute Slideshow Blocker",
+    "description": "Pokazuje pokaz slajdów przez 5 minut przed uruchomieniem filmu na YouTube, wymaga aktywności użytkownika.",
+    "version": "1.0",
+    "manifest_version": 3,
+    "icons": {
+    },
+    "permissions": [
+      "storage",
+      "activeTab",
+      "scripting"
+    ],
+    "host_permissions": [
+      "*://www.youtube.com/*"
+    ],
+    "options_page": "options.html",
+    "content_scripts": [
+      {
+        "matches": ["*://www.youtube.com/watch*", "*://www.youtube.com/shorts*"],
+        "js": ["content-script.js"],
+        "css": ["slideshow.css"]
+      }
+    ]
+  }
+  
