@@ -7,7 +7,7 @@
 - [YouTube 5-Minute Slideshow Blocker](#youtube-5-minute-slideshow-blocker)
   - [Table of Contents](#table-of-contents)
   - [Features](#features)
-    - [Soon ✨](#soon-)
+    - [Soon implemented ✨](#soon-implemented-)
   - [Project Structure](#project-structure)
     - [Description of Key Files](#description-of-key-files)
   - [Installation](#installation)
@@ -38,16 +38,32 @@
    - Content script inserts and manages the overlay on YouTube watch pages.  
    - Options page allows you to add or remove images for the slideshow.
 
-### Soon ✨
+### Soon implemented ✨
 
-- Habit list - each habit checked remove fraction of time from timer or unlock one video
-- Background voice of Jocko "GOOD" motivation speech - Possible to pause it
-- Popup with habit checker
+- Habit list
+  - Counter of habits done
+  - Each habit checked
+    - remove fraction of time from timer
+    - unlock one video
+    - add time to use blocked websites
+- Background voice of Jocko "GOOD" motivation speech
+  - pause it on leaving tab resume on activity
+  - mute
+- Options
+  - set timers (allow, block)
+  - CRUD
+    - goal images
+    - blocked pages
+- Popup
+  - habit checker
+  - include this page in blocking
 - Add icons
 - Motivational quotes
-- Counter of habits done
-- Pictures transition
 - Goal pictures carousel
+  - Pictures transition
+- Possibility to add other websites like (`instagram.com`, `facebook.com`, ect.)
+  - block base on lime spend on site instead of url
+  - exclude form blocking messages subpage
 
 ---
 
