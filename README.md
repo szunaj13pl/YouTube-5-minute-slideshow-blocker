@@ -44,7 +44,7 @@
 - Background voice of Jocko "GOOD" motivation speech - Possible to pause it
 - Popup with habit checker
 - Add icons
-- Motivational quote
+- Motivational quotes
 - Counter of habits done
 - Pictures transition
 - Goal pictures carousel
@@ -53,7 +53,7 @@
 
 ## Project Structure
 
-```
+```bash
 YouTube-5-minute-slideshow-blocker/
 │
 ├── manifest.json          # Main manifest (Manifest V3)
