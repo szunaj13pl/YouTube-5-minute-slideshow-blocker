@@ -7,6 +7,7 @@
 - [YouTube 5-Minute Slideshow Blocker](#youtube-5-minute-slideshow-blocker)
   - [Table of Contents](#table-of-contents)
   - [Features](#features)
+    - [Soon ✨](#soon-)
   - [Project Structure](#project-structure)
     - [Description of Key Files](#description-of-key-files)
   - [Installation](#installation)
@@ -36,6 +37,17 @@
 4. **Content Script & Options Page**  
    - Content script inserts and manages the overlay on YouTube watch pages.  
    - Options page allows you to add or remove images for the slideshow.
+
+### Soon ✨
+
+- Habit list - each habit checked remove fraction of time from timer or unlock one video
+- Background voice of Jocko "GOOD" motivation speech - Possible to pause it
+- Popup with habit checker
+- Add icons
+- Motivational quote
+- Counter of habits done
+- Pictures transition
+- Goal pictures carousel
 
 ---
 
